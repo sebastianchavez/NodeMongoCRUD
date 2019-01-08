@@ -1,0 +1,8 @@
+//Iniciar proyecto
+npm init --yes
+
+//instalar express mongoose ejs morgan
+npm install express mongoose ejs morgan --save
+
+Instalar nodemon
+npm i nodemon -D
