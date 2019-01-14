@@ -11,7 +11,6 @@ router.get('/',async (req,res) =>{
 })
 
 router.post('/add',async (req,res)=>{
-    // console.log(req.body)
     const task = new Task(req.body)
     await task.save()
     res.redirect('/')
